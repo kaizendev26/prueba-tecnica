@@ -1,0 +1,25 @@
+###
+GET http://localhost:5000/articulo?id=123456 HTTP/1.1
+
+###
+GET http://localhost:5000/tasks?id=1 HTTP/1.1
+
+
+###
+POST http://localhost:5000/clases HTTP/1.1
+Content-Type: 'application/json'
+
+{
+    "id" : "1"
+}
+
+###
+POST http://localhost:5000/clase HTTP/1.1
+Content-Type: 'application/json'
+
+{
+    "id" : "123456"
+}
+
+###
+PUT http://localhost:5000/tasks?id=1 HTTP/1.1

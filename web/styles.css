@@ -1,0 +1,43 @@
+
+*, *::before,*::after {
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(243 244 246);
+  }
+
+.form{
+    border: .1rem solid #dee2e6;
+    border-radius: .375rem;  
+    background-color:#fff;
+}
+
+.form-label{
+    margin-bottom: 0.3rem!important;
+}
+
+.flex-descontinuado{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.flex-button{
+    display: flex;
+    align-items: center;
+}
+
+.flex-button button {
+  margin-left: 10px;
+}
+
+.flex-button input{
+  width: 300px; 
+}
+
+.flex-sku{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
